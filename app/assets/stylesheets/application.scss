@@ -4,6 +4,14 @@
 
 @import 'materialize';
 
+@mixin papyrus {
+  font-family: 'Papyrus';
+  color: rgb(110,110,110);
+}
+@mixin dark {
+  color: rgb(60,60,60);
+}
+
 #nav-bar {
   display: flex;
   flex-direction: row;
@@ -93,3 +101,79 @@
   }
 }
 
+.content-container {
+  background: rgba(121,46,46, 1);
+  min-height: 77vh;
+  width: 100%;
+
+  .music-subheader {
+    @extend .subheader;
+    margin-bottom: 10px;
+    font-size: 2.8vw;
+  }
+  
+  ul.music-listing {
+    font-family: 'Papyrus';
+    font-size: 2.4vw;
+    color: rgb(110,110,110) !important;
+    li {
+      list-style-type: circle !important;
+    }
+    margin: 0 15%;
+  }
+  padding: 2vh 0;
+}
+
+.content {
+  background: white;
+  height: 100%;
+  min-height: 77vh;
+  margin: 0 10vw;
+  padding-bottom: 35px;
+  border-radius: 10px;
+}
+
+.header {
+  padding-top: 15px;
+  padding-bottom: 25px;
+  font-family: 'Papyrus';
+  font-weight: 600;
+  font-size: 3vw;
+  text-align: center;
+  width: 100%;
+  background: rgba(121,46,46, 1);
+  color: white;
+}
+.header-line {
+  margin: 3px;
+  background: white;
+  width: 80%;
+  height: 1px;
+  margin: 3px auto;
+}
+
+.subheader {
+  @include papyrus;
+  @include dark;
+  font-size: 2.0vw;
+  font-weight: 600;
+  margin-left: 25px;
+  padding: 8px 0;
+  padding-top: 25px;
+}
+
+.resume-table {
+  @include papyrus;
+  @include dark;
+  width: 95%;
+  margin-left: 25px;
+  padding-right: 35px;
+}
+
+.email-body {
+  @include papyrus;
+  @include dark;
+  padding: 35px;
+  font-size: 3vw;
+  text-align: center;
+}

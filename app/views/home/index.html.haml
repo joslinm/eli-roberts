@@ -1,37 +1,6 @@
-%div
-  #nav-bar
-    %a{href: '/'}
-      = image_tag('logo.png')
-    %a.nav-item{href: '/'}
-      Home
-    .separator
-    %a.nav-item{href: '/music'}
-      Music
-    .separator
-    %a.nav-item{href: '/performances'}
-      Performances
-    .separator
-    %a.nav-item{href: '/resume'}
-      Resume
 
 .photo-slideshow-container
   #photo-slideshow
     - slideshow_photos.each.with_index do |photo, index|
       %div.inset-shadow
         = image_tag(photo)
-
-#footer
-  %div.left.left-side
-    %a{href: 'www.instagram.com'}
-      = image_tag('instagram.png')
-    %a{href: 'www.facebook.com'}
-      = image_tag('facebook.png')
-    %a{href: 'www.instagram.com'}
-      = image_tag('youtube.png')
-
-  %div.right.right-side
-    %div
-      %i.material-icons gamepad
-    %div
-      %span Created by
-      %a{href: "http://www.markjoslin.com"} Mark Joslin

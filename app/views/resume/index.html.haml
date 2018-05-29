@@ -1,0 +1,24 @@
+%div.content-container
+  .header
+    %span My Resume
+    .header-line
+  %div.content
+    - names = ['Composing / Arranging', 'Performances', 'Teaching', 'Education']
+    - lists = [composing_list, performances_list, teaching_list, education_list]
+    %div.resume-listing
+      - lists.zip(names).each do |list, name|
+        %div.subheader=name
+        %table.resume-table
+          %tr
+            %th Year
+            %th Title
+            %th Organization
+            %th Details
+
+          - list.each do |section|
+            %tr
+              %td= section[:year]
+              %td= section[:title]
+              %td= section[:organization]
+              %td= section[:details]
+
