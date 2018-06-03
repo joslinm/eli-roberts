@@ -18,9 +18,9 @@ class ResumeController < ApplicationController
     { year: '2016-2018', title: 'In house background musician', organization: 'Potbelly Sandwich Shops', details: 'Background musician at Potbelly Sandwich Shops playing between six and eight two-hour sets of solo guitar music per week.' }, 
     { year: '2017', title: 'Guitarist for Radiant Obscurity Collective', organization: 'Radiant Obscurity Collective', details: 'Guitarist and composer for touring group, played a 10 show national tour to audiences of as many as 1,400.' },
     { year: '2016', title: 'Released solo guitar album The Sandwich Artistry of Eli Roberts', organization: 'Personal Project', details: 'Released 14 track live-in-studio solo guitar album ' },
-    { year: '2016', title: "Played in pit band for musical ‘Killer Maples’", organization: 'Killer Maples', details: 'Guitarist and Mandolinist for local musical by Compose Andre Ramos' },
+    { year: '2016', title: "Played in pit band for musical ‘Killer Maples’", organization: 'Killer Maples', details: 'Guitarist and Mandolinist for local musical by Composer Andre Ramos' },
     { year: '2015-16', title: 'Main host, contributing comedic writer, and music director for Charles River Variety', organization: 'WMBR 88.1 FM', details: 'A live music and comedy radio show on WMBR, spanning 45 weekly hour-long episodes' },
-    { year: '2012-Present', title: 'Freelance performer', organization: 'Various', details: 'Freelance performer at weddings, functions, parties, religious gatherings, in pit bands, and in concerts of my own compositions'}
+    { year: '2012 until the present', title: 'Freelance performer', organization: 'Various', details: 'Freelance performer at weddings, functions, parties, religious gatherings, in pit bands, and in concerts of my own compositions'}
   ]
 
   TEACHING_LIST = [
