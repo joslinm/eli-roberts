@@ -7,7 +7,7 @@ class ResumeController < ApplicationController
   private
 
   COMPOSING_LIST = [
-    { year: '2018', title: 'Arranger for the Bernstein at 100', organization: 'CUA', details: 'Arranged Leonard Bernstein songs for strings, piano, and percussion for performances at the Kennedy Center, the CUA Arena Stage, and the Bulgarian' }, 
+    { year: '2018', title: 'Arranger for the Bernstein at 100', organization: 'CUA', details: 'Arranged Leonard Bernstein songs for strings, piano, and percussion for performances at the Kennedy Center, the CUA Arena Stage, and the Bulgarian Embassy' }, 
     { year: '2018', title: 'Arranger for the Strathmore Youth Orchestra', organization: 'Strathmore Youth Orchestra', details: 'Wrote bass clarinet parts for Swan Lake.' }, 
     { year: '2017', title: 'Composer/performer for MOGO', organization: 'Personal Project', details: 'Released MOGO album, a part composed part improvised operetta that tells the story of the worlds laziest man.' }, 
     { year: '2016-2018', title: 'Freelance composer/arranger for various', organization: 'Weddings, Senior recitals, and original concerts', details: 'Kept busy with work for individual clients and purposes.' },
