@@ -3,6 +3,7 @@
 */
 
 @import 'materialize';
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 
 $green: #4E8844;
@@ -10,7 +11,7 @@ $blue: rgb(86, 112, 141);
 $dark: rgb(74,74,74);
 
 @mixin papyrus {
-  font-family: 'Papyrus';
+  font-family: 'Indie Flower', cursive;
 }
 @mixin dark {
   color: rgb(74,74,74);
@@ -151,7 +152,7 @@ div {
   }
   
   ul.music-listing {
-    font-family: 'Papyrus';
+    @include papyrus;
     font-size: 2.4vw;
     color: rgb(110,110,110) !important;
     li {
@@ -177,9 +178,9 @@ div {
 .header {
   @include background;
   @include white;
+  @include papyrus;
   padding-top: 15px;
   padding-bottom: 25px;
-  font-family: 'Papyrus';
   font-weight: 600;
   font-size: 3vw;
   text-align: center;
