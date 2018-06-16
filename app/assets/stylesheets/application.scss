@@ -3,7 +3,7 @@
 */
 
 @import 'materialize';
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
 
 
 $green: #4E8844;
@@ -11,7 +11,7 @@ $blue: rgb(86, 112, 141);
 $dark: rgb(74,74,74);
 
 @mixin papyrus {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Merriweather', serif;
 }
 @mixin dark {
   color: rgb(74,74,74);
@@ -52,7 +52,7 @@ div {
     @include white;
     margin-top: 15px;
     font-weight: 500;
-    font-size: 4vh;
+    font-size: 3.5vh;
   }
   .separator {
     margin-top: 15px;
