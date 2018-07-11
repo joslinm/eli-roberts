@@ -3,7 +3,8 @@
 */
 
 @import 'materialize';
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 
 
 $green: #4E8844;
@@ -11,7 +12,7 @@ $blue: rgb(86, 112, 141);
 $dark: rgb(74,74,74);
 
 @mixin papyrus {
-  font-family: 'Merriweather', serif;
+  font-family: 'Quicksand', sans-serif;
 }
 @mixin dark {
   color: rgb(74,74,74);
