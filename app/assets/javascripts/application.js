@@ -18,7 +18,7 @@ $(document).ready(function() {
   $('#photo-slideshow').slick({
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 5000,
     slidesToScroll: 1,
     slidesToShow: 1
   });
